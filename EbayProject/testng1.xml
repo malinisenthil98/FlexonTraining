@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Suite">
+
+    <test name = "MyEbayTest">
+        <parameter name="userName" value="abc@gmail.com" />
+        <classes>
+
+            <class  name = "MyEbayLogin" ></class>
+        </classes>
+    </test>
+</suite>
